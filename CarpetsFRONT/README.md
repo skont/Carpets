@@ -10,7 +10,7 @@ sudo npm i -g webpack webpack-dev-server
 In config/index.js changed the address of the server from localhost to 192.168.33.14 (the box ip)
 
 In order to use ngrok:
-# Cahnge teh config/index.js back to localhost
+# Change teh config/index.js back to localhost
 I was getting an invalid headers error
 # Run the following: ngrok http 8080 --host-header="localhost:8080"
 
@@ -21,7 +21,8 @@ The routes are: http://192.168.33.14:8080/#/test MIND the #
 Removed the Eslint because it was giving Errors
 
 ==
-run the app with: sudo npm run dev
+run the FRONT end app with: sudo npm run dev
+run the API with: npm start
 
 ==
 Interesting links:

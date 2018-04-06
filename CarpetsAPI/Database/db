@@ -1,0 +1,11 @@
+CREATE DATABASE carpets;
+
+USE carpets;
+
+
+CREATE TABLE IF NOT EXISTS Customers (
+custName nvarchar(200),
+custAddress nvarchar(4000),
+custCity nvarchar(100),
+custPhone nvarchar(20)
+);
